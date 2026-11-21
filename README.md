@@ -1,3 +1,23 @@
+## Mis Aportes y Responsabilidades — Eliana Sarah Moguilevsky
+
+* **Buscador de Personajes e Integración con API Pública (`BuscadorPersonaje` y `personajes.json`):**
+  * Estructuración y curaduría del dataset local (`personajes.json`) y desarrollo del componente de búsqueda con filtrado dinámico y visualización de estado de los personajes (*Alive* / *Deceased*).
+  * Implementación del consumo asíncrono de datos externos conectando la aplicación con **The Simpsons API** (`thesimpsonsapi.com`), con manejo de estados de carga y errores.
+
+* **Arquitectura de Modales con Portales e Integración en Navegación (`ModalDirectorio` y `Sidebar`):**
+  * Diseño y desarrollo del componente modal reutilizable refactorizado mediante `createPortal` para renderizar el directorio y el detalle ampliado de personajes fuera del árbol DOM principal.
+  * Integración del modal dentro de la barra lateral compartida (`Sidebar` / `SidebarItem`), adaptando los ítems de navegación para soportar acciones interactivas además de rutas.
+
+* **Migración a React y Componentes Interactivos (`ElianaRoom` y `PeinadoMarge`):**
+  * Migración completa del perfil individual (**Eliana / Marge**) hacia la arquitectura modular de React (`RoomLayout`), incorporando el escenario SVG artesanal de la cocina, la sección dinámica `GitHubProjects` y el widget interactivo `PeinadoMarge` gestionado con `useState` y persistencia en `localStorage`.
+
+* **Manejo de Errores, Enrutamiento SPA y QA General (`Tech Lead`):**
+  * Desarrollo de la página **404 personalizada** y configuración de *fallbacks* en **React Router** para contener rutas inexistentes dentro de la SPA.
+  * Depuración general (*debugging*), limpieza de componentes obsoletos (`VisitRooms`), corrección de rutas (`App.jsx`), ajustes de posicionamiento fijo en el *toggle* de modo día/noche y actualización de la bitácora y documentación del proyecto.
+
+  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 # TP2 - Donuts & Code
 
 ## Descripción
@@ -12,8 +32,7 @@ La app incluye navegación SPA con React Router, una sidebar compartida, modo no
 
 ## Repositorio 
 
-- Github: [https://github.com/IgnacioMiguelPenovi/Frontend-Grupo-16-TP2.git](https://github.com/IgnacioMiguelPenovi/Frontend-Grupo-16-TP2.git)
-
+- Github: https://github.com/ElianaMoguilevsky/FrontEnd2026-TP2/
 
 ## Integrantes
 
